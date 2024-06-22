@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+
+}
+
+li{
+    list-style-type: none;
+}
+@media (width<40em) {
+    
+    body{
+        background-color: red;
+        display: hidden;
+    }
+    ul{
+        display: block;
+    }
+}
